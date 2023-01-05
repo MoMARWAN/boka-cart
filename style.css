@@ -127,6 +127,11 @@ padding: 0px;
 
 
 }
+.modal{
+    left: auto;
+    right: 0;
+
+}
 .modal-boka{
     width: 42.375rem;
    
@@ -261,6 +266,7 @@ opacity: 0.6;
 
 }
 .go-to button{
+    height: 3rem;
     font-family: 'Avenir Next';
 font-style: normal;
 font-weight: 600;
