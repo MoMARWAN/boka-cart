@@ -273,13 +273,23 @@ font-weight: 600;
 font-size: 18px;
 color: #000000;
 }
+#search-pop {
 
+    align-items: center;
+    width: 10%;
+    background: #FF914D;
+    border-radius: 8px !important;
+    border: 1px solid #FF914D;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
 
 #search-pop:hover {
-
-
     background-color: #ffb384;
-
 
 }
 
