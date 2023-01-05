@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="stayl.scss">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./AvenirNext-Regular.ttf">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/Group-7.ico" type="image/x-icon">
+  <title>Boka</title>
+</head>
+
+<body>
+  <header>
+  <nav class="navbar nav-0">
+
+    <div class="social">
+      <li><a href="#"><img src="img/svg/instgram.svg" alt=""></a></li>
+      <li> <a href="#"><img src="img/svg/you.svg" alt=""></a></li>
+      <li> <a href="#"><img src="img/svg/Vector.svg" alt=""></a></li>
+      <li><a href="#"><img src="img/svg/tal.svg" alt=""></a>
+        <span>+1 985 983 9823</span>
+      </li>
+    </div>
+    <div class="help">
+      <li><a href="">For Business</a></li>
+      <hr class="HrNav">
+      <li><a href="">Help</a> </li>
+
+      <hr class="HrNav">
+
+      <li class="nav-item">
+        <div class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            EN
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">EN</a></li>
+            <li><a class="dropdown-item" href="#">ES</a></li>
+            <li><a class="dropdown-item" href="#">FR</a></li>
+          </ul>
+        </div>
+      </li>
+    </div>
+
+  </nav>
+
+ <section class="logo-boka">
+    <div class="logo">
+      <img src="./img/logo.png" alt="">
+    </div>
+    <div class="forame16">
+     <a href="#"><img src="img/forame 16/calendar.svg" alt=""></a>
+     <a href="#"><img src="img/forame 16/chat.svg" alt=""></a>
+     <a href="#"><img src="img/forame 16/Group 10299.png" alt=""></a>
+     <a href="#"><img src="img/forame 16/Group 20904.svg" alt=""></a>
+     <a href="#"><img src="img/forame 16/heart.svg" alt=""></a>
+    <div class="Ellipse10">
+      <button href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="fa-solid fa-bars"></i></button>
+      <img src="img/forame 16/Ellipse 10.png" alt="">
+    </div>
+    </div>
+  </section>
+  </header>
+
+
+
+  <div class="start">
+    <div class="title">
+      <p class="titel-1">Your style booking specialist</p>
+      <h1>Clothes mean nothing until
+        someone lives in them.</h1>
+
+      <article class="searchArtic">
+        <div class="search-1" dir="rtl">
+          <li><a href="">Los Angeles</a> &nbsp; <img src="./img/svg/map.svg" alt=""></li>
+          <hr class="HrSearch-1">
+          <li><a href="">Now </a> &nbsp;<img src="./img/svg/cl.svg" alt=""></li>
+          <hr class="HrSearch-1">
+          <li><a href="">Today </a>&nbsp;<img src="./img/svg/hestori.svg" alt=""> </li>
+          <hr class="HrSearch-1">
+          <li>
+            <div class="form-check  custom-checkbox">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+
+              <label class="form-check-label" for="form-check-input">
+                At home
+              </label>
+            </div>
+            <div class="form-check  custom-checkbox">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+
+              <label class="form-check-label" for="form-check-input">
+                Business
+              </label>
+            </div>
+          </li>
+        </div>
+
+        <div class="search-2">
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text bg-white" id="addon-wrapping"><i
+                class="fa-solid fa-magnifying-glass"></i></span>
+            <input type="search" class="form-control" placeholder="Hair Salon" aria-label="search"
+              aria-describedby="addon-wrapping">
+          </div>
+        </div>
+
+        <button id="search-pop" type="submit">
+          search
+        </button>
+
+      </article>
+      <div class="titel-2">
+      <p>It looks like you're in Dhaka Division. <a href="#">Not correct?</a> </p>
+      <a class="Get-current" href="#"><img src="./img/svg/ma.svg" alt=""> Get current location; </a>
+    </div>
+    </div>
+  </div>
+
+<div  class="modal fade modal-boka" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ps-4">
+        <div class="d-flex justify-content-between">
+       <article class="d-flex">
+        <button type="button" class="btn-close bth-boka1" data-bs-dismiss="modal" aria-label="Close"></button>  
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Cart</h1>
+      </article>
+        <button type="button" class="btn" >Clear cart</button>
+      </div>
+        <p class="ms-5" >5 Services from 2 Business</p>
+        <p class="Each" > <img src="img/forame 16/mark.svg" alt=""> Each service will be drafted if it’s not get paid within  <time datetime="00:09:54">(00:09:54)</time></p>
+      </div>
+      <div class="modal-body">
+
+
+
+        <section class="d-flex justify-content-between">
+        <img src="img/forame 16/avatar.png" alt="">
+        <article>
+        <h1>Salon Name Goes here</h1>
+        <div class="d-flex">
+        <p>2 Total Services </p>
+        <p>Sessions Period: 30min (8:00am-8:30am)</p>
+      </div>
+      </article>
+      <p class="dolar">$117.00</p>
+        <button class="bth button-s"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+        <button class="bth button-m"><img src="img/forame 16/arr.svg" alt=""></button>
+      </section>
+
+
+
+      <section class="Manicure">
+        <article class="d-flex justify-content-between">
+        <div class="Mon">
+        <h1>Manicure on Mon, 8:30 PM </h1>
+        <p>Period: 30 min</p>
+      </div>
+        <button class="bth button-s"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </article>
+
+
+        <div class="Cheyenne">
+          <div class="d-flex">
+          <img src="img/forame 16/Elli.png" alt="..."> 
+         <article>
+          <h1>Cheyenne L.</h1>
+          <p>Sr. Hairstylist</p>
+          </article>
+        </div>
+          <p>Travel cost
+            <br> +$5</p>
+
+
+          
+
+        </div>
+      
+        <div class="mt-3 ">
+             <button class="ps-0" style=" background: initial;
+             border: none; padding-left:  2rem; color: #2F80ED;"> See 3 Addons <img src="img/forame 16/arr.svg" alt=""></button>  
+             <ul class="ps-0">
+                <li>Manicure Addons 1     + $12</li>
+                <li>Manicure Addons 1      + $12</li>
+                <li>Manicure Addons 1      + $12</li>
+              </ul>
+            </div>
+      </section>
+
+
+
+      <section class="Manicure">
+        <article class="d-flex justify-content-between">
+        <div class="Mon">
+        <h1>Manicure on Mon, 8:30 PM </h1>
+        <p>Period: 30 min</p>
+      </div>
+        <button class="bth button-s"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+      </article>
+
+
+        <div class="Cheyenne">
+          <div class="d-flex">
+          <img src="img/forame 16/Elli.png" alt="..."> 
+         <article>
+          <h1>Cheyenne L.</h1>
+          <p>Sr. Hairstylist</p>
+          </article>
+        </div>
+        
+        </div>
+      
+        <div class="mt-3 ">
+             <button class="ps-0" style=" background: initial;
+             border: none; padding-left:  2rem; color: #2F80ED;"> See 3 Addons <img src="img/forame 16/arr.svg" alt=""></button>  
+            </div>
+      
+
+        
+      </section>
+
+      </div>
+      <div class="modal-footer">
+        <div class="btn-group go-to" > 
+          <div class="btn-group" style="width: 90%;">
+            <button type="button" class="btn">
+              Go to Checkout
+            </button>
+          </div>
+          <button type="button" style="width: 10%;" class="btn">80$</button>
+        </div>      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section class="autoplay-0">
+    <div class="Vie-l-r">
+      <button class="Vie-l"><i class="fa-solid fa-angle-left"></i></button>
+      <button class="Vie-r"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+    <div class="autoplay">
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+
+
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+      <div class="card autoplay-1" style="  border: none;">
+        <img src="./img/Rectangle 6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text" style="text-align: center;">Manicure</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+ 
+
+
+
+  <footer class="text-center md text-white">
+
+    <section class="Footer-metro">
+      <div class="row row-cols-2 row-cols-lg-2 row-cols-xl-5 pt-5 col-footer "
+        style="display: flex;  justify-content: space-between;">
+        <div class="col foll" style="width: 25%;">
+          <img src="./img/LogoFooter.png" alt="">
+          <p style="max-width: 280px;"> Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eius mod tempor
+            incididunt.</p>
+        </div>
+
+        <div class="col contact-information" style="width: 15%;">
+          <h5>Discover</h5>
+
+          <ul class="list-unstyled row-cols-2 mb-0">
+            <li>
+              <a href="">Dining Rewards</a>
+            </li>
+            <li>
+              <a href="">Private Dining</a>
+            </li>
+            <li>
+              <a href="">Reserve for Others</a>
+            </li>
+            <li>
+              <a href=""> Cuisines Near Me</a>
+            </li>
+            <li>
+              <a href="">Restaurants Near Me</a>
+            </li>
+            <li>
+              <a href="">Delivery Near Me</a>
+            </li>
+            <li>
+              <a href="">Cuisines</a>
+            </li>
+            <li>
+              <a href="">Restaurants Open Now</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col contact-information" style="width: 15%;">
+          <h5>Opentable</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="">About Us </a>
+            </li>
+            <li>
+              <a href=""> Blog </a>
+            </li>
+            <li>
+              <a href="">Careers</a>
+            </li>
+            <li>
+              <a href="">Press</a>
+            </li>
+          </ul>
+          <h5>More</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="">OpenTable for iOS</a>
+            </li>
+            <li>
+              <a href=""> OpenTable for Android </a>
+            </li>
+            <li>
+              <a href="">Affiliate Program</a>
+            </li>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col contact-information" style="width: 15%;">
+          <h5 class="text-uppercase pe-5">Our Sites</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="">OpenTable.jp</a>
+            </li>
+            <li>
+              <a href="">OpenTable.de</a>
+            </li>
+            <li>
+              <a href="">OpenTable.es</a>
+            </li>
+            <li>
+              <a href=""> OpenTable.ca</a>
+            </li>
+            <li>
+              <a href=""> OpenTable.hk </a>
+            </li>
+            <li>
+              <a href=""> OpenTable.sg </a>
+            </li>
+            <li>
+              <a href=""> OpenTable.nl </a>
+            </li>
+            <li>
+              <a href=""> OpenTable.com.mx </a>
+            </li>
+            <li>
+              <a href=""> OpenTable.co.uk </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col contact-information" style="width: 20%;">
+          <h5 class="text-uppercase pe-5">Businesses</h5>
+          <ul class="list-unstyled row-cols-2 mb-0">
+            <li>
+              <p>Delight more diners</p>
+            </li>
+            <li>
+              <p>Open for Business Blog</p>
+            </li>
+            <div>
+              #f09861
+              <h5>Join Us On</h5>
+              <div class="soshl">
+                <div class="soshlDborder"> <a href=""><img src="./img/svg/instgramfooter.svg" alt=""></a></div>
+                <div class="soshlDborder"> <a href=""><img src="./img/svg/twiter.svg" alt=""></a></div>
+                <div class="soshlDborder"> <a href=""><img src="./img/svg/lnkend.svg" alt=""></a></div>
+                <div class="soshlDborder"> <a href=""><img id="img10" src="./img/svg/feac.svg" alt=""></a></div>
+
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+
+    </section>
+    <article>
+      <div class="Copyright">
+        <ul class="list-unstyled">
+          <li>
+            <a href="">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="">Terms of Use</a>
+          </li>
+          <li>
+            <a href="">Cookies and Interest-Based Ads</a>
+          </li>
+          <li>
+            <a href="">Do Not Sell</a>
+          </li>
+          <li>
+            <a href="">Cookies Settings</a>
+          </li>
+        </ul>
+        <div>
+          <p>Copyright © 2022 Boka, Inc. All rights reserved.</p>
+        </div>
+      </div>
+
+      </div>
+    </article>
+    <div class="OpenTable">
+      <p>OpenTable is part of Booking Holdings, the world leader in online travel and related services.</p>
+
+      <div>
+        <img src="./img/svg/image 10.svg" alt="">
+        <!-- <a><i class="fa-brands fa-behance"></i></a>
+    <a><i class="fa-brands fa-behance"></i></a>
+    <a><i class="fa-brands fa-behance"></i></a>
+    <a><i class="fa-brands fa-behance"></i></a> -->
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+  "></script>
+  <script src="./ComparisonSlider.js"></script>
+  <script src="slider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"
+    integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ 
+<script>
+  $('.autoplay').slick({
+    slidesToShow: 8,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 10000,
+    nextArrow: $('.Vie-l'),
+    prevArrow: $('.Vie-r'),
+    responsive: [
+      {
+        breakpoint: 2000,
+        settings: {
+          slidesToShow: 10,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+
+    ]
+  });
+
+
+</script>
+
+
+
+
+</body>
+
+</html>
