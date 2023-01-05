@@ -275,16 +275,6 @@ color: #000000;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 #search-pop:hover {
 
 
@@ -392,10 +382,7 @@ label.form-check-label:focus,
     margin-top: 120px;
 }
 
-/* .form-check input[type="checkbox"]:checked + label:before {
-    color: #FF914D;
-    text-align: center;
-  } */
+
 .form-check input:checked~.checkmark {
     background-color: #FF914D;
 }
@@ -451,31 +438,6 @@ label.form-check-label:focus,
 }
 
 
-/*   
-  article {
-     background-color:#ffe;
-    box-shadow:0 0 1em 1px rgba(0,0,0,.25);
-    color:#006;
-    font-family:cursive;
-     font-style:italic; 
-    margin:4em;
-    max-width:30em;
-    padding:2em; 
-  } */
-#search-pop {
-
-    align-items: center;
-    width: 7.5rem;
-    background: #FF914D;
-    border-radius: 8px !important;
-    border: 1px solid #FF914D;
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
-}
 
 .search-2 input {
 
@@ -485,13 +447,6 @@ label.form-check-label:focus,
     border-radius: 8px;
 }
 
-/*
-.search-2 span{
-    position: absolute;
-    z-index: 5;
-    margin: 1% 1%; 
-
-} */
 .autoplay {
     width: 70%;
     margin: auto;
@@ -572,19 +527,6 @@ label.form-check-label:focus,
     font-weight: 800;
     color: #FF914D;
 
-}
-.Get-current{
-    color: #FF914D !important;
-}
-
-.slider1 {
-    width: 100%;
-    /* margin: auto; */
-    margin-top: 12%;
-}
-
-.slider1__list {
-    width: 10% !important;
 }
 
 
@@ -718,171 +660,8 @@ footer a {
 
 }
 
-.img-comp-container {
-    position: absolute;
-    height: 200px;
-    /*should be the same height as the images*/
-    width: 80rem;
-    margin: auto;
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 140%;
-    color: #17505C;
 
-}
 
-.img-comp-img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-}
-
-.img-comp-img img {
-    display: block;
-    vertical-align: middle;
-}
-
-.img-comp-slider {
-    position: absolute;
-    z-index: 9;
-    cursor: ew-resize;
-    width: 441px;
-    height: 10px;
-    background-color: #FFFFFF;
-    transform: rotate(-90deg);
-}
-
-#AfterText {
-    position: absolute;
-    right: 10%;
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-    color: #02323D;
-
-}
-
-#BeforeText {
-    position: absolute;
-    top: 75%;
-    left: 10%;
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 49px;
-    color: #FFFFFF;
-
-}
-
-.Shoukri {
-    width: 40%;
-    margin-left: 75%;
-    margin-top: 5%;
-
-}
-
-.Shoukri a {
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    text-transform: capitalize;
-    color: #FF914D;
-
-}
-
-.Shoukri p {
-
-    max-width: 297px;
-    font-family: 'Avenir Next';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 140%;
-    color: #17505C;
-
-}
-
-.Popular-Category {
-    width: 80rem;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.Popular {
-    width: 50%;
-}
-
-.Popular col {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 64.72%, #000000 100%);
-    border-radius: 8px;
-}
-
-.Popular col:hover {
-    color: #000000;
-}
-
-.Popular h5 {
-
-    font-family: 'ITF Devanagari Marathi';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FFFFFF;
-    margin-top: 40%;
-}
-
-.Category {
-    width: 95%;
-    height: 100%;
-    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 32.69%);
-    filter: drop-shadow(0px 7px 24px rgba(23, 80, 92, 0.16));
-    border-radius: 8px;
-}
-
-.Category .c-bth img {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.c-bth {
-    width: 50px;
-    height: 50px;
-    background: #FF914D;
-    border-radius: 50%;
-    border: 1px solid #FF914D;
-}
-
-.Category-text {
-    margin-top: 45%;
-    padding-right: 30px !important;
-    padding-left: 30px !important;
-    display: flex;
-    justify-content: space-between;
-}
-
-.Category-text h5 {
-    font-family: 'ITF Devanagari Marathi';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
-
-#Sho {
-    margin-bottom: 24px;
-}
 
 #View-all {
     background: #Ffffff;
@@ -896,26 +675,15 @@ footer a {
 
 }
 
-.Vie-all,
-.Vie-all-0,
-.Vie-all-1,
-.Vie-all-2,
-.Vie-all-3,
-.Vie-all-4,
-.Vie-all-5 {
+.Vie-all
+{
     background: #Ffffff;
     border: none;
     color: #17505C;
 
 }
 
-.Vie-alll,
-.Vie-alll-1,
-.Vie-alll-0,
-.Vie-alll-2,
-.Vie-alll-3,
-.Vie-alll-4,
-.Vie-alll-5 {
+.Vie-alll {
     background: #Ffffff;
     border: none;
     color: #17505C;
@@ -930,10 +698,3 @@ footer a {
     display: none !important;
 }
 
-/* @media (min-width: 1566px) and (max-width: 2100px) { 
-    a , h1 , p , span
-    {
-        font-size:xx-large;
-
-    }
-   } */
